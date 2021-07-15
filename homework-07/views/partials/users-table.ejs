@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th>User</th>
+        <th>Status</th>
+        <th>Location</th>
+        <th>Phone</th>
+    </tr>
+    <tr>
+        <% users.forEach(user => { %>
+            <tr>
+                <td><%= user.name%></td>
+                <td><%= user.status%></td>
+                <td><%= user.location%></td>
+                <td><%= user.phone%></td>
+            </tr>
+        <% }) %>
+    </tr>
+</table>

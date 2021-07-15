@@ -1,0 +1,12 @@
+<table>
+    <tr>
+      <th>Place</th>
+      <th>Price per night</th>
+    </tr>
+    <% places.forEach(place => { %>
+      <tr>
+        <td><%= place.place %></td>
+        <td>$<%= place.price %></td>
+      </tr>
+      <% }) %>
+</table>
